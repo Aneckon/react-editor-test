@@ -6,6 +6,10 @@
 
   border-right: 2px solid #e4e6f1;
 
+  @media (max-width: 990px) {
+    max-width: 162px;
+  }
+
   &__content {
     display: flex;
     align-items: center;
